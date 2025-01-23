@@ -40,6 +40,11 @@
 //     const offset = -currentSlide * 100;
 //     carouselInner.style.transform = `translateX(${offset}%)`;
 // }
+
+
+
+
+
 let currentSlide = 0;
 
 // Function to update carousel position

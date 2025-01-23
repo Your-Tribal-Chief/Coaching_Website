@@ -109,7 +109,8 @@ footer {
 } */
 
 
-/* General Styles */
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -124,7 +125,7 @@ body {
     max-width: 1200px;
 }
 
-/* Header Styles */
+
 header {
     background: #4CAF50;
     color: #fff;
@@ -153,7 +154,7 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Carousel Styles */
+
 .carousel {
     position: relative;
     margin: 20px auto;
@@ -193,7 +194,7 @@ header nav ul li a {
     right: 10px;
 }
 
-/* Hero Section */
+
 #hero {
     background: #f4f4f4;
     padding: 50px 0;
@@ -212,13 +213,13 @@ header nav ul li a {
     border-radius: 5px;
 }
 
-/* Other Sections */
+
 section {
     padding: 50px 0;
     text-align: center;
 }
 
-/* Footer */
+
 footer {
     background: #333;
     color: #fff;
@@ -235,12 +236,12 @@ footer {
 
 .carousel-inner {
     display: flex;
-    width: 500%; /* 5 images, 100% each */
+    width: 500%; 
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item {
-    width: 20%; /* Each image takes 20% of the carousel width */
+    width: 20%; 
 }
 
 .carousel-item img {
@@ -313,26 +314,19 @@ footer {
 .carousel-btn.next {
     right: 10px;
 }
-/* #title1{
+
+ #title1 {
     background-position: center;
     padding: 20px;
     background-color: red;
     width: 200px;
-    border-radius: 200px;
-    margin-left: 450px;
-} */
-#title1 {
-    background-position: center;
-    padding: 20px;
-    background-color: red;
-    width: 200px;
-    border-radius: 50%; /* Makes the shape circular */
+    border-radius: 50%; 
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white; /* For better text contrast */
+    color: white; 
     font-weight: bold;
     position: relative;
 }
