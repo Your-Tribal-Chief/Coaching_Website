@@ -60,9 +60,11 @@ header h1 {
 }
 
 .cell:hover {
-    background-color: #e8f5e9;
+    background-color: red;
 }
-
+.cell:active {
+    background-color: #4CAF50;
+}
 #result {
     margin-top: 20px;
     font-size: 1.5rem;
