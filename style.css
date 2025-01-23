@@ -313,11 +313,26 @@ footer {
 .carousel-btn.next {
     right: 10px;
 }
-#title1{
+/* #title1{
     background-position: center;
     padding: 20px;
     background-color: red;
     width: 200px;
     border-radius: 200px;
     margin-left: 450px;
+} */
+#title1 {
+    background-position: center;
+    padding: 20px;
+    background-color: red;
+    width: 200px;
+    border-radius: 50%; /* Makes the shape circular */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* For better text contrast */
+    font-weight: bold;
+    position: relative;
 }
